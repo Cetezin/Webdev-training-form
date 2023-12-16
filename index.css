@@ -80,19 +80,20 @@ nav{
     height: 275px;
     margin-block-start: 205px;
     margin-inline-start: 140px;
+}
 
-    >img{
-        width: 77.33px;
-        height: 80px;
-    }
-    >h2{
-        font-size: 40px;
-        /* font-weight: 1500; */
-        line-height: 50px;
-        color: #000B0A;
-        text-align: left;
-        margin-block-start: 40px;
-    }
+.details>img{
+  width: 77.33px;
+  height: 80px;
+}
+
+.details>h2{
+  font-size: 40px;
+  /* font-weight: 1500; */
+  line-height: 50px;
+  color: #000B0A;
+  text-align: left;
+  margin-block-start: 40px;
 }
 
 p#small{
@@ -175,9 +176,10 @@ form p{
   letter-spacing: 0px;
   text-align: center;
   margin-block-start: 5px;
-  >span{
-    color: #2EC4B6;
-  }
+}
+
+form p>span{
+  color: #2EC4B6;
 }
 
 p.small{
@@ -186,16 +188,16 @@ p.small{
 
 @media(max-width: 1250px){
   
-nav{
-  display: flex;
-  justify-content: space-between;
-  padding-block: 14px 12px;
-  margin-inline: 24px 24px;
-}
+  nav{
+    display: flex;
+    justify-content: space-between;
+    padding-block: 14px 12px;
+    margin-inline: 24px 24px;
+  }
 
-.icons img{
-  display: inline;
-}
+  .icons img{
+    display: inline;
+  }
 
   .main{
     display: block;
@@ -208,20 +210,22 @@ nav{
     margin-left: 24px;
     margin-block-start: 2vh;
     height: fit-content;
-    >img{
-      width: 38.65px;
-      height: 40px;
-      box-shadow: 0px 4px 10px 0px #0000001A;
-      border-radius: 50%;
-    }
-    >h2{
-      margin-top: 40px;
-      font-size: 30px;
-      font-weight: 700;
-      line-height: 29px;
-      letter-spacing: -0.800000011920929px;
-      text-align: left;
-    }
+  }
+
+  .details>img{
+    width: 38.65px;
+    height: 40px;
+    box-shadow: 0px 4px 10px 0px #0000001A;
+    border-radius: 50%;
+  }
+
+  .details>h2{
+    margin-top: 40px;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: -0.800000011920929px;
+    text-align: left;
   }
 
   article{
@@ -291,7 +295,7 @@ nav{
   }
 }
 
-h1.show_love{
+h1.space-below{
   margin-top: 100px;
   visibility: hidden;
 }
